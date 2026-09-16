@@ -1,0 +1,27 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Using node to stream video and audio",
+  "homepage": "https://github.com/jtk2206/streaming-media-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/jtk2206/streaming-media-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtk2206/streaming-media-assignment.git"
+  },
+  "license": "ISC",
+  "author": "Jason Kogan",
+  "type": "commonjs",
+  "main": "eslint.config.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.10.0",
+    "globals": "^17.12.0"
+  }
+}
